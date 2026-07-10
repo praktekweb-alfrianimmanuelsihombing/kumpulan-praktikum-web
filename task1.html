@@ -3,129 +3,68 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Formulir Pengguna ST Bhinneka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 Layout Web</title>
+    <link rel="stylesheet" href="task1.css">
 </head>
 
 <body>
 
-    <center>
+<div class="container">
 
-        <table border="1" width="800" cellpadding="5" cellspacing="0">
-            <tr>
-                <td>
+    <header>
+        <h1>Portal Teknologi Modern</h1>
+    </header>
 
-                    <a href="https://satyaterrabhinneka.ac.id/" target="_blank">
-                        <img src="https://satyaterrabhinneka.ac.id/assets/img/logo-universitas-satya-terra-bhinneka.png"
-                            width="380" alt="Logo ST Bhinneka">
-                    </a>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-                    <h2>Menu Navigasi</h2>
+    <div class="content">
 
-                    <ul>
-                        <li>
-                            <a href="https://satyaterrabhinneka.ac.id/" target="_blank">
-                                Beranda
-                            </a>
-                        </li>
+        <div class="articles">
 
-                        <li>
-                            <a href="https://satyaterrabhinneka.ac.id/profil/visi-misi/" target="_blank">
-                                Tentang Kami
-                            </a>
-                        </li>
+            <article id="artikel1"><h2>HTML</h2><p>HTML adalah bahasa dasar untuk membuat struktur website.</p></article>
+            <article id="artikel2"><h2>CSS</h2><p>CSS digunakan untuk memperindah tampilan website.</p></article>
+            <article id="artikel3"><h2>JavaScript</h2><p>JavaScript membuat website menjadi interaktif.</p></article>
+            <article id="artikel4"><h2>Responsive Design</h2><p>Website menyesuaikan semua ukuran layar.</p></article>
+            <article id="artikel5"><h2>UI Design</h2><p>UI fokus pada tampilan yang menarik.</p></article>
+            <article id="artikel6"><h2>UX Design</h2><p>UX fokus pada kenyamanan pengguna.</p></article>
+            <article id="artikel7"><h2>Keamanan Web</h2><p>Melindungi data pengguna dari ancaman.</p></article>
+            <article id="artikel8"><h2>Framework</h2><p>Framework mempercepat pengembangan web.</p></article>
+            <article id="artikel9"><h2>Cloud</h2><p>Cloud memudahkan penyimpanan data online.</p></article>
+            <article id="artikel10"><h2>AI Web</h2><p>AI membantu pengembangan web modern.</p></article>
 
-                        <li>
-                            <a href="https://satyaterrabhinneka.ac.id/kontak/" target="_blank">
-                                Hubungi Kami
-                            </a>
-                        </li>
-                    </ul>
+        </div>
 
-                    <h2>Formulir Pengguna</h2>
+        <aside>
+            <h3>Sidebar</h3>
+            <ul>
+                <li><a href="#artikel1">HTML</a></li>
+                <li><a href="#artikel2">CSS</a></li>
+                <li><a href="#artikel3">JavaScript</a></li>
+                <li><a href="#artikel4">Responsive</a></li>
+                <li><a href="#artikel5">UI</a></li>
+                <li><a href="#artikel6">UX</a></li>
+                <li><a href="#artikel7">Security</a></li>
+                <li><a href="#artikel8">Framework</a></li>
+                <li><a href="#artikel9">Cloud</a></li>
+                <li><a href="#artikel10">AI</a></li>
+            </ul>
+        </aside>
 
-                    <form>
+    </div>
 
-                        <table border="0" width="100%">
-                            <tr>
+    <footer>
+        <p>© 2026 Portal Teknologi</p>
+    </footer>
 
-                                <td width="62%" valign="top">
-
-                                    Nama:<br>
-                                    <input type="text" size="30">
-                                    <br><br>
-
-                                    Email:<br>
-                                    <input type="email" size="30">
-                                    <br><br>
-
-                                    Password:<br>
-                                    <input type="password" size="30">
-                                    <br><br>
-
-                                    Alamat:<br>
-                                    <textarea rows="5" cols="48"></textarea>
-                                    <br><br>
-
-                                    <input type="submit" value="Submit">
-
-                                </td>
-
-                                <td width="38%" valign="middle">
-
-                                    Jenis Kelamin:<br>
-
-                                    <input type="radio" name="jk">
-                                    Laki-laki
-                                    <br>
-
-                                    <input type="radio" name="jk">
-                                    Perempuan
-
-                                    <br><br>
-
-                                    Hobi:<br>
-
-                                    <input type="checkbox">
-                                    Olahraga
-                                    <br>
-
-                                    <input type="checkbox">
-                                    Musik
-                                    <br>
-
-                                    <input type="checkbox">
-                                    Membaca
-
-                                </td>
-
-                                <td valign="middle">
-
-                                    Usia:<br>
-                                    <input type="number" size="6">
-
-                                    <br><br>
-
-                                    Pilih Gambar:<br>
-                                    <input type="file">
-
-                                    <br><br>
-
-                                    Tanggal Lahir:<br>
-                                    <input type="date">
-
-                                </td>
-
-                            </tr>
-                        </table>
-
-                    </form>
-
-                </td>
-            </tr>
-        </table>
-
-    </center>
+</div>
 
 </body>
-
 </html>
